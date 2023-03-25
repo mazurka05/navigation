@@ -1,0 +1,20 @@
+
+
+.target{
+    width: 600px;
+    height: 400px;
+    background: silver;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+    background: coral;
+    position: relative;
+    top: 50px;
+    z-index: -1;
+}
