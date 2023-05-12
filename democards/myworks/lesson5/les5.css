@@ -1,0 +1,23 @@
+.card1{
+    display: flex;
+    background: silver;
+    box-sizing: border-box;
+    padding: 30px 100px;
+}
+.card1 > p{
+    text-align: justify;
+    box-sizing: border-box;
+    padding-left: 30px;
+    border-left: 2px solid black;
+}
+@media  screen and (min-width: 0) and (max-width: 976px){
+    .card1{
+        flex-direction: column;
+    }
+    .card1 > p{
+        border-left: none;
+        border-top: 2px solid black;
+        padding-left: 0;
+        padding-top: 30px;
+    }
+}

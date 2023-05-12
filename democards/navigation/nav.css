@@ -1,0 +1,67 @@
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-list li{
+    padding: 0 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.header{
+    display: flex;
+    justify-content: end;
+    background-color: black;
+    height: 50px;
+}
+.logo-container{
+    flex-grow: 1;
+    margin-left: 30px;
+}
+.logo-link{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.logo-img{
+    height: 40px;
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li:last-of-type a{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding: 0 10px;
+    background-color: red;
+    border-radius: 3px;
+}
+.nav-list li:last-of-type svg{
+    width: 1em;
+}
+.nav-list li:last-of-type a:hover {
+    background: #c9233a;
+    transition: all .25s ease;
+}
+.nav-list li:last-of-type svg{
+    width: 1em;
+    margin-right: 5px;
+}
+.last-item{
+    margin-right: 30px;
+}
